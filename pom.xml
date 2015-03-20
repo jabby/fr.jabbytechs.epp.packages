@@ -137,6 +137,14 @@
         <module>packages/org.eclipse.epp.package.testing.product</module>
       </modules>
     </profile>
+    <profile>
+      <id>epp.package.jabbyclipse</id>
+      <modules>
+        <module>packages/fr.jabbytechs.jabbyclipse</module>
+        <module>packages/fr.jabbytechs.jabbyclipse.feature</module>
+        <module>packages/fr.jabbytechs.jabbyclipse.product</module>
+      </modules>
+    </profile>
   </profiles>
 
 </project>
