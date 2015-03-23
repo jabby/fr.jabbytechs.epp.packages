@@ -74,6 +74,27 @@
       <url>http://download.eclipse.org/cbi/updates/license/</url>
       <layout>p2</layout>
     </repository>
+    
+    <repository>
+      <id>angularjs-eclipse</id>
+      <layout>p2</layout>
+      <url>http://oss.opensagres.fr/angularjs-eclipse/0.9.0-SNAPSHOT/</url>
+    </repository>
+    <repository>
+      <id>elcemma</id>
+      <layout>p2</layout>
+      <url>http://update.eclemma.org/</url>
+    </repository>
+    <repository>
+      <id>moreunit</id>
+      <layout>p2</layout>
+      <url>http://moreunit.sourceforge.net/update-site/</url>
+    </repository>
+    <repository>
+      <id>tern.java</id>
+      <layout>p2</layout>
+      <url>http://oss.opensagres.fr/tern.repository/0.9.0-SNAPSHOT/</url>
+    </repository>
   </repositories>
 
   <build>

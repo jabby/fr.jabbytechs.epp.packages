@@ -23,6 +23,10 @@
    <url>
       <discovery label="Mars" url="http://download.eclipse.org/releases/mars/"/>
       <discovery label="Eclipse Platform 4.5" url="http://download.eclipse.org/eclipse/updates/4.5"/>
+      <discovery label="AngularJS Eclipse" url="http://oss.opensagres.fr/angularjs-eclipse/0.9.0-SNAPSHOT/"/>
+      <discovery label="EclEmma" url="http://update.eclemma.org/"/>
+      <discovery label="More Unit" url="http://moreunit.sourceforge.net/update-site/"/>
+      <discovery label="tern.java" url="http://oss.opensagres.fr/tern.repository/0.9.0-SNAPSHOT/" />
    </url>
 
    <includes
@@ -31,42 +35,56 @@
          search-location="both"/>
 
    <requires>
-      <import feature="org.eclipse.platform"/>
-      <import feature="org.eclipse.platform.source"/>
-      <import feature="org.eclipse.rcp"/>
-      <import feature="org.eclipse.rcp.source"/>
-      <import feature="org.eclipse.jdt"/>
-      <import feature="org.eclipse.jdt.source"/>
-      <import feature="org.eclipse.pde"/>
-      <import feature="org.eclipse.pde.source"/>
-      <import feature="org.eclipse.cvs"/>
-      <import feature="org.eclipse.cvs.source"/>
-      <import feature="org.eclipse.equinox.p2.user.ui"/>
-      <import feature="org.eclipse.help"/>
-      <import feature="org.eclipse.egit"/>
-      <import feature="org.eclipse.egit.import"/>
-      <import feature="org.eclipse.jgit"/>
-      <import feature="org.eclipse.mylyn.bugzilla_feature"/>
-      <import feature="org.eclipse.mylyn.builds"/>
-      <import feature="org.eclipse.mylyn.commons.identity"/>
-      <import feature="org.eclipse.mylyn.commons.notifications"/>
-      <import feature="org.eclipse.mylyn.commons.repositories.http"/>
-      <import feature="org.eclipse.mylyn.commons.repositories"/>
-      <import feature="org.eclipse.mylyn.commons"/>
-      <import feature="org.eclipse.mylyn.discovery"/>
-      <import feature="org.eclipse.mylyn.gerrit.feature"/>
-      <import feature="org.eclipse.mylyn.git"/>
-      <import feature="org.eclipse.mylyn.hudson"/>
-      <import feature="org.eclipse.mylyn.monitor"/>
-      <import feature="org.eclipse.mylyn.reviews.feature"/>
-      <import feature="org.eclipse.mylyn.team_feature"/>
-      <import feature="org.eclipse.mylyn.versions"/>
-      <import feature="org.eclipse.mylyn.wikitext_feature"/>
-      <import feature="org.eclipse.mylyn_feature"/>
-      <import feature="org.eclipse.recommenders.rcp.feature"/>
-      <import feature="org.eclipse.recommenders.snipmatch.rcp.feature"/>
-      <import feature="org.eclipse.recommenders.mylyn.rcp.feature"/>
-      <import feature="org.eclipse.epp.package.common.feature"/>
+   	  <import feature="angularjs-eclipse-feature"/>
+   	  <import feature="com.mountainminds.eclemma.feature"/>
+   	  <import feature="org.eclipse.egit.import"/>
+   	  <import feature="org.eclipse.egit"/>
+   	  <import feature="org.eclipse.epp.package.common.feature"/>
+   	  <import feature="org.eclipse.help"/>
+   	  <import feature="org.eclipse.jdt"/>
+   	  <import feature="org.eclipse.jgit"/>
+   	  <import feature="org.eclipse.jpt.common.feature"/>
+   	  <import feature="org.eclipse.jpt.jaxb.feature"/>
+   	  <import feature="org.eclipse.jpt.jpa.feature"/>
+   	  <import feature="org.eclipse.jsf.feature" />
+   	  <import feature="org.eclipse.jst.common.fproj.enablement.jdt"/>
+   	  <import feature="org.eclipse.jst.enterprise_ui.feature"/>
+   	  <import feature="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature"/>
+   	  <import feature="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature"/>
+   	  <import feature="org.eclipse.jst.server_adapters.ext.feature"/>
+   	  <import feature="org.eclipse.jst.server_adapters.feature"/>
+   	  <import feature="org.eclipse.jst.server_ui.feature"/>
+   	  <import feature="org.eclipse.jst.web_ui.feature"/>
+   	  <import feature="org.eclipse.jst.webpageeditor.feature"/>
+   	  <import feature="org.eclipse.jst.webpageeditor.feature"/>
+   	  <import feature="org.eclipse.jst.ws.axis2tools.feature"/>
+   	  <import feature="org.eclipse.jst.ws.axis2tools.feature"/>
+   	  <import feature="org.eclipse.jst.ws.cxf.feature" />
+   	  <import feature="org.eclipse.jst.ws.jaxws.dom.feature" />
+   	  <import feature="org.eclipse.jst.ws.jaxws.feature" />
+   	  <import feature="org.eclipse.m2e.feature"/>
+   	  <import feature="org.eclipse.m2e.logback.feature"/>
+   	  <import feature="org.eclipse.m2e.wtp.feature"/>
+   	  <import feature="org.eclipse.m2e.wtp.jaxrs.feature"/>
+   	  <import feature="org.eclipse.m2e.wtp.jpa.feature"/>
+   	  <import feature="org.eclipse.m2e.wtp.jsf.feature"/>
+   	  <import feature="org.eclipse.platform"/>
+   	  <import feature="org.eclipse.recommenders.rcp.feature"/>
+   	  <import feature="org.eclipse.recommenders.snipmatch.rcp.feature"/>
+   	  <import feature="org.eclipse.wst.common.fproj"/>
+   	  <import feature="org.eclipse.wst.jsdt.feature"/>
+   	  <import feature="org.eclipse.wst.server_adapters.feature"/>
+   	  <import feature="org.eclipse.wst.web_ui.feature"/>
+   	  <import feature="org.eclipse.wst.xml_ui.feature"/>
+   	  <import feature="org.eclipse.wst.xsl.feature"/>
+   	  <import feature="org.moreunit.light"/>
+   	  <import feature="org.moreunit.mock"/>
+   	  <import feature="org.moreunit"/>
+   	  <import feature="tern-feature"/>
+   	  <import feature="tern-jsdt-feature"/>
+   	  <import feature="tern-linters-feature"/>
+   	  <import feature="tern-server-nodejs-feature"/>
+   	  <import feature="tern.eclipse.ide.tools.feature"/>
    </requires>
 
    <plugin
